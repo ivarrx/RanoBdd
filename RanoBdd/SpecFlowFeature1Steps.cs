@@ -12,6 +12,7 @@ namespace RanoBdd
             System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "www.eksisozluk.com");
 
         }
+        
         [Given(@"I have navigated eksisozluk login page")]
         public void GivenIHaveNavigatedEksisozlukLoginPage()
         {
@@ -19,7 +20,6 @@ namespace RanoBdd
             Ranorex.ATag login = webDocument.FindSingle(".//a[#'top-login-link']");
             login.Click();
         }
-        
         [Given(@"I have entered my credentials")]
         public void GivenIHaveEnteredMyCredentials()
         {
@@ -45,5 +45,7 @@ namespace RanoBdd
             Ranorex.WebDocument webDocument = "/dom[@domain='eksisozluk.com']";
             Ranorex.SpanTag errorMessage = webDocument.FindSingle(".///div[#'login-form-container']/?/?/span[]");
         }
+     
+
     }
 }

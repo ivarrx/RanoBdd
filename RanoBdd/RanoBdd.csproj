@@ -52,110 +52,169 @@
     <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Bootstrapper">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Bootstrapper.dll</HintPath>
+    <Reference Include="Ranorex.Bootstrapper, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Bootstrapper.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Common.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Core">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Core.dll</HintPath>
+    <Reference Include="Ranorex.Common.Net35, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Common.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Contracts, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Controls, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Controls.Wpf, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Controls.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.Contracts.netstandard2.0, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.Contracts.netstandard2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.Injection, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.Injection.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.Ipc.net462, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.Ipc.net462.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Core.Resolver, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Core.Resolver.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.Resolver.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Cef">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Cef.dll</HintPath>
+    <Reference Include="Ranorex.Core.WinApi, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Core.WinApi.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.CefHost">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.CefHost.dll</HintPath>
+    <Reference Include="Ranorex.Instrumentation.Qt, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Instrumentation.Qt.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.ChromeWeb">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.ChromeWeb.dll</HintPath>
+    <Reference Include="Ranorex.Instrumentation.RawText, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Instrumentation.RawText.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Integrations.Jira, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Integrations.Jira.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Integrations.Services, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Integrations.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Integrations.TestRail.Controls, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Integrations.TestRail.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Integrations.TestRail.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Integrations.TestRail.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Integrations.TestRail.Service, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Integrations.TestRail.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.Base, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.Domain, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.Licensing, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.Util, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.WinApi, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.WinApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.WinForms, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Libs.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Mvvm, Version=5.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Cef.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.CefHost, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.CefHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.ChromeWeb.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Delphi, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Delphi.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Delphi.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.FirefoxWeb, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.FirefoxWeb.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.FirefoxWeb.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Flex, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Flex.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Flex.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Java, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Java.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Java.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Mobile">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Mobile.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Mobile, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Mobile.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Msaa, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Msaa.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Msaa.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Office">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Office.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Office, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Office.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Qt">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Qt.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Qt, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Qt.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.RawText">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.RawText.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.RawText, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.RawText.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Sap">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Sap.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Sap, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Sap.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.Uia, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Uia.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Uia.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Web">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Web.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Web, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Web.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.WebDriver">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WebDriver.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.WebDriver, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WebDriver.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Win32, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Win32.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Win32.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.WinForms">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WinForms.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.WinForms.Contracts.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WinForms.Contracts.Core.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WinForms.Contracts.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.WinForms.Core">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WinForms.Core.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.WinForms.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WinForms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.WinFormsProxy, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WinFormsProxy.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WinFormsProxy.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.WinFormsProxy.Core.netcoreapp3.0">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WinFormsProxy.Core.netcoreapp3.0.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.WinFormsProxy.Core.netcoreapp3.0, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WinFormsProxy.Core.netcoreapp3.0.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Wpf">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.Wpf.Contracts.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.Contracts.Core.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Wpf.Contracts.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.Wpf.Core">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.Core.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.Wpf.Core, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.Wpf.Core.dll</HintPath>
     </Reference>
     <Reference Include="Ranorex.Plugin.WpfProxy, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WpfProxy.dll</HintPath>
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WpfProxy.dll</HintPath>
     </Reference>
-    <Reference Include="Ranorex.Plugin.WpfProxy.Core.netcoreapp3.0">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.WpfProxy.Core.netcoreapp3.0.dll</HintPath>
+    <Reference Include="Ranorex.Plugin.WpfProxy.Core.netcoreapp3.0, Version=9.3.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\UlasDllRonwe.1.0.0\lib\Ranorex.Plugin.WpfProxy.Core.netcoreapp3.0.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -225,7 +284,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpecFlowFeature1Steps.cs" />
   </ItemGroup>
