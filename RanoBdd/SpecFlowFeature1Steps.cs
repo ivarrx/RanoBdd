@@ -45,7 +45,8 @@ namespace RanoBdd
             Ranorex.WebDocument webDocument = "/dom[@domain='eksisozluk.com']";
             Ranorex.SpanTag errorMessage = webDocument.FindSingle(".///div[#'login-form-container']/?/?/span[]");
         }
-     
+
+
 
     }
 }

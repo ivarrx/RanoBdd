@@ -6,5 +6,7 @@
 Scenario: Login eksisozluk
 	Given I have navigated eksisozluk login page
 	And I have entered my credentials
-	When I press login
 	Then I need to be succesfully logged
+	When I press login
+
+
